@@ -1,0 +1,7 @@
+# exampleformat1.yaml
+name: "profitviews"
+inputFormat: "JSON"
+columns:
+  - keyPath: "timestamp"
+  - keyPath: "current_profit"
+  - keyPath: "current_price"

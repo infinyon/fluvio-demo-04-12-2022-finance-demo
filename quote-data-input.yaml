@@ -1,0 +1,10 @@
+version: latest
+name: gme-http-input
+type: http
+topic: gme-stocks
+create_topic: true
+direction: source
+parameters:
+  endpoint: 'https://finnhub.io/api/v1/quote?symbol=GME&token='
+  method: GET
+  interval: 3
