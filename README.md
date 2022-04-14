@@ -1,5 +1,9 @@
 # Fluvio Finance Demo
 
+* This is the source code to the [Real time Event Streaming and Data
+Transformation for Financial Services
+Webinar](https://www.youtube.com/watch?v=wAvyB8367g4).
+
 ## Overview
 * Ingest realtime data from https://finnhub.io/docs/api/quote using a Fluvio Connector
 * Ingest some local warrants we have
