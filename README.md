@@ -15,6 +15,10 @@ References:
 
 # Running the demo
 
+Before starting ensure you have a token from https://finnhub.io and edit the
+`quote-data-input.yaml` line to have `token=<YOUR TOKEN>` in the `endpoint`
+section of the yaml.
+
 ## Start the connector:
 * `make gme-input` - will compile and start the connector
 * `fluvio connector create --config ./quote-data-input.yaml`
