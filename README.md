@@ -1,5 +1,6 @@
 # Fluvio Finance Demo
 
+## Overview
 * Ingest realtime data from https://finnhub.io/docs/api/quote using a Fluvio Connector
 * Ingest some local warrants we have
 * Use a smartmodule to calculate realtime ROI
@@ -8,7 +9,7 @@
 References:
 * https://stockmarketmba.com/whatisawarrant.php
 
-# How to run
+# Running the demo
 
 ## Start the connector:
 * `make gme-input` - will compile and start the connector
