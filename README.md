@@ -25,7 +25,7 @@ section of the yaml.
 
 ## View the table
 * `make sm-consume-table` will compile the smartstream, create the table and run:
- `fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0 --output full_table --table-format profitviews`
+ `fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0 --output full-table --table-format profitviews`
 
 ## View the raw data
 * `make sm-consume` will compile the smartstream and view the raw data via `fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0`
