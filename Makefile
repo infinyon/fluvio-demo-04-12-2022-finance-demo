@@ -10,7 +10,7 @@ sm-consume: sm-compile
 	fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0
 
 sm-consume-table : sm-compile table-format
-	fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0 --output full_table --table-format profitviews
+	fluvio consume --aggregate ./target/wasm32-unknown-unknown/release/finnhub_data_smartmodule.wasm gme-stocks -B 0 --output full-table --table-format profitviews
 
 produce-warrants:
 	cat warrants.txt  | fluvio produce gme-stocks
