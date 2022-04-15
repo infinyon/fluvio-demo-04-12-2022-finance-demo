@@ -21,7 +21,7 @@ The demo can run in [InfinyOn Cloud](https://infinyon.cloud) or your own local c
 
 * **Option 1** (Preferred): Signup for [InfinyOn Cloud](https://www.fluvio.io/docs/get-started/cloud/)
 * **Option 2**: Provision your local cluster [Local Cluster](https://www.fluvio.io/download/)
-** Use `fluvio cluster start`, then follow instructions on [Managed Connectors](https://www.fluvio.io/connectors/#managed-connectors)
+    * Use `fluvio cluster start`, then follow instructions on [Managed Connectors](https://www.fluvio.io/connectors/#managed-connectors)
 
 ## Start the connector:
 
